@@ -21,9 +21,9 @@ end
 
 def position_taken?(board,index)
   if board[index-1]=="X"||board[index-1]=="O"
-    return false
-  else
     return true
+  else
+    return false
   end
 end
 
@@ -129,10 +129,3 @@ end
 
 
 play(["","","","","","","","",""])
-
-
-
-
-
-
-
