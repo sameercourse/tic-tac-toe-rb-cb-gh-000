@@ -37,7 +37,7 @@ end
 
 def turn(board)
   puts "enter the input"
-  input=gets.strip
+  input=gets
   index=input_to_index(input)
     if valid_move?(board,index)
       puts "Enter the character"
