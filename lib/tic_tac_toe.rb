@@ -41,7 +41,7 @@ def turn(board)
   index=input_to_index(input)
     if valid_move?(board,index)
       puts "Enter the character"
-      char=gets.strip
+      char=gets
       move(board,index,char)
       display_board(board)
     else
